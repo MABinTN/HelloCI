@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/thirdparty/libs/MvcContrib
+/src/test/HelloCI.Tests/bin/Debug
+/src/app/HelloCI.Web/bin

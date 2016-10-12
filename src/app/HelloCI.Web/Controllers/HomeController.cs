@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MvcContrib;
 
 namespace HelloCI.Web.Controllers
 {
@@ -25,6 +26,11 @@ namespace HelloCI.Web.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Help()
+        {
+            return this.RedirectToAction(x => x.About());
         }
     }
 }
